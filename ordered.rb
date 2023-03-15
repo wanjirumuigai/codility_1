@@ -1,7 +1,9 @@
 require "pry"
 def order(word)
-ordered_word = []
-  word.chars.each 
+
+p word.scan(/\w/).tally.to_a
+
   
 end
-binding.pry
+order("233312")
+
